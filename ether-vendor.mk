@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/ether/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/nextbit/ether/proprietary/bin/cnd:system/bin/cnd \
     vendor/nextbit/ether/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/nextbit/ether/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/nextbit/ether/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/nextbit/ether/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/nextbit/ether/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -28,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/ether/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/nextbit/ether/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/nextbit/ether/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/nextbit/ether/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/nextbit/ether/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nextbit/ether/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nextbit/ether/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
@@ -142,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/ether/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/nextbit/ether/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/nextbit/ether/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
-    vendor/nextbit/ether/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/nextbit/ether/proprietary/lib/libFIHNxp.so:system/lib/libFIHNxp.so \
     vendor/nextbit/ether/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/nextbit/ether/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -155,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/nextbit/ether/proprietary/lib/libtfa98xx_hal.so:system/lib/libtfa98xx_hal.so \
     vendor/nextbit/ether/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/nextbit/ether/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
-    vendor/nextbit/ether/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
     vendor/nextbit/ether/proprietary/lib64/libFIHNxp.so:system/lib64/libFIHNxp.so \
     vendor/nextbit/ether/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/nextbit/ether/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
